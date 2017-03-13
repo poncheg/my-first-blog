@@ -3,7 +3,7 @@ Definition of urls for mysite.
 """
 
 from django.conf.urls import include, url
-from blog import *
+
 # Uncomment the next two lines to enable the admin:
 from django.contrib import admin
 admin.autodiscover()
@@ -11,7 +11,7 @@ admin.autodiscover()
 urlpatterns = [
     # Examples:
     # url(r'^$', mysite.views.home, name='home'),
-    url(r'^blog/', include(blog.views)),
+    # url(r'^blog/', include(blog.views)),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
