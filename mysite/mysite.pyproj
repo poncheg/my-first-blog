@@ -47,6 +47,7 @@
     <Compile Include="mysite\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="blog\templates\blog\post_list.html" />
     <Content Include="blog\templates\index.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
@@ -54,6 +55,7 @@
     <Folder Include="blog\" />
     <Folder Include="blog\migrations\" />
     <Folder Include="blog\templates\" />
+    <Folder Include="blog\templates\blog\" />
     <Folder Include="mysite\" />
   </ItemGroup>
   <ItemGroup>
