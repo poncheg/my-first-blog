@@ -26,7 +26,7 @@ SECRET_KEY = 'd300c19a-bc06-4229-8a28-99872c3554fd'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [poncheg.pythonanywhere.com, localhost]
+ALLOWED_HOSTS = ['poncheg.pythonanywhere.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
